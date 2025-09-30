@@ -1,25 +1,37 @@
-/* a minimalist set of CSS resets */
-
-/* default to border-box */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
+<title>TreJpg Portfolio Page</title>
+<style>
+{
+margin:0;
+padding:0;
 }
-
-*, *:before, *:after {
-  box-sizing: inherit;
+header{
+height:60px;
+background: 262626;
+padding:0  50px;
 }
-
-/* adjust typography defaults */
-body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
+.logo{
+width:30%;
+float:left; 
+color: #fff;
+font-weight:bold;
+text-transform:uppercase;
+line-height:60px;
+font-size:35px;
+font-family:sans-serif;
 }
+</style>
 
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
-}
+
+
+</head>
+<body>
+<header>
+<div class="logo">Logo</div>
+<nav>
+<ul>
+<li><a href="#">Home</a></i>
+<li><a href="#">About</a></li>
+<li><a href="#">Portfolio</a></li> 
+<li><a href="#">services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
