@@ -24,6 +24,7 @@ header nav {
   gap: 3.1rem;               
   padding: 0.8rem;
 }
+<<<<<<< HEAD
 
 
 
@@ -139,3 +140,18 @@ footer a {
 footer a:hover {
   text-decoration: none;
 }
+=======
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Logo</div>
+<nav>
+<ul>
+<li><a href="#">Home</a></i>
+<li><a href="#">About</a></li>
+<li><a href="#">Portfolio</a></li> 
+<li><a href="#">services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+>>>>>>> afbba6d16c796d903db475ca21e87eaf3d93240b
